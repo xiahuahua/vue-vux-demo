@@ -204,6 +204,7 @@
             width: 23px;
             height: 23px;
             margin-top: 3px;
+            vertical-align: top;
         }
         .search-content {
             position: relative;
