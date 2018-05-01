@@ -25,10 +25,10 @@ npm run build
 
 ##预览效果
 
-![xiahuahua](/Users/Arvin/Desktop/未命名文件夹/wxImg1.jpeg)
-![xiahuahua](/Users/Arvin/Desktop/未命名文件夹/wxImg2.jpeg)
-![xiahuahua](/Users/Arvin/Desktop/未命名文件夹/wxImg3.jpeg)
-![xiahuahua](/Users/Arvin/Desktop/未命名文件夹/wxImg4.jpeg)
-![xiahuahua](/Users/Arvin/Desktop/未命名文件夹/wxImg5.jpeg)
-![xiahuahua](/Users/Arvin/Desktop/未命名文件夹/wxImg6.jpeg)
-![xiahuahua](/Users/Arvin/Desktop/未命名文件夹/wxImg7.jpeg)
+![xiahuahua](https://github.com/xiahuahua/vue-vux-demo/blob/master/src/assets/wxImg1.jpeg)
+![xiahuahua](https://github.com/xiahuahua/vue-vux-demo/blob/master/src/assets/wxImg2.jpeg)
+![xiahuahua](https://github.com/xiahuahua/vue-vux-demo/blob/master/src/assets/wxImg3.jpeg)
+![xiahuahua](https://github.com/xiahuahua/vue-vux-demo/blob/master/src/assets/wxImg4.jpeg)
+![xiahuahua](https://github.com/xiahuahua/vue-vux-demo/blob/master/src/assets/wxImg5.jpeg)
+![xiahuahua](https://github.com/xiahuahua/vue-vux-demo/blob/master/src/assets/wxImg6.jpeg)
+![xiahuahua](https://github.com/xiahuahua/vue-vux-demo/blob/master/src/assets/wxImg7.jpeg)
