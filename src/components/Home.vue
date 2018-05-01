@@ -32,7 +32,6 @@
 <script>
     import {Tab, TabItem, ViewBox} from 'vux'
     import store from '../store'
-    import DemoContent from './DemoContent'
     import Subscibe from './Subscibe'
     import Recommend from './Recommend'
     import NewsList from './NewsList'
@@ -50,7 +49,6 @@
             ViewBox,
             Tab,
             TabItem,
-            DemoContent,
             Recommend,
             Subscibe,
             NewsList,
