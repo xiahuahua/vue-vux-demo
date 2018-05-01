@@ -13,7 +13,7 @@
 
 ### 线上访问
 
-[在线演示戳我](https://xiahuahua.github.io/vue-vux-demo)（请使用chrome开发者手机演示模式预览）
+[在线演示戳我!戳我!](https://xiahuahua.github.io/vue-vux-demo)（请使用chrome开发者手机演示模式预览）
 
 ### 移动端演示
 
