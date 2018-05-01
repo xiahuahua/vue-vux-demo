@@ -6,7 +6,7 @@
 ### 技术栈
 - 传说中的VUE全家桶(vue vue-router vuex)
 - axios
-- [Vux](https://vux.li)（一个凑合的 Vue.js 移动端 UI 组件库）
+- [Vux](https://vux.li)（ 一个凑合的 Vue.js 移动端 UI 组件库 ）
 - [模拟json数据的网站](https://jsonplaceholder.typicode.com)
 
 ## 安装运行（Build Setup）
