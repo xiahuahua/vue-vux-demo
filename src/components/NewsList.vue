@@ -9,6 +9,7 @@
                 <span class="pubdate">{{x.pub_date}}</span>
             </div>
         </cell>
+        <back-top></back-top>
     </div>
 </template>
 <style>
@@ -32,6 +33,7 @@
 <script>
     import {Group, Cell, Swiper, Scroller, Divider} from 'vux'
     import axios from 'axios'
+    import BackTop from './BackTop'
 
 
     const imgList = [
@@ -61,7 +63,8 @@
             Cell,
             Group,
             Divider,
-            Swiper
+            Swiper,
+            BackTop
         },
         created() {
             this.getList()
