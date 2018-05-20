@@ -54,6 +54,7 @@
   }
 
   #myset {
+    position: relative;
     .banner {
       position: relative;
       width: 100%;

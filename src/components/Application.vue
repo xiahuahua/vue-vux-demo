@@ -34,6 +34,8 @@
 
   #application {
     margin-top: 16px;
+    position: absolute;
+    width: 100%;
     .itemtitle {
       display: flex;
       align-items: center;
