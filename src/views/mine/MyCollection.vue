@@ -73,16 +73,16 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: url("../assets/image/no_collect.jpg") no-repeat center center;
+    background: url("../../assets/image/no_collect.jpg") no-repeat center center;
     background-size: 100%;
   }
 </style>
 <script>
 
   import {Group, Cell, Scroller, Spinner, Divider} from "vux";
-  import SkeletonScreenLoadingCell from '../components/SkeletonScreenLoading_Cell'
+  import SkeletonScreenLoadingCell from '../../components/SkeletonScreenLoading_Cell'
   import axios from 'axios'
-  import store from '../store'
+  import store from '../../store/index'
 
   export default {
     store,

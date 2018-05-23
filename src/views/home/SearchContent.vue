@@ -32,8 +32,8 @@
 <script>
   import {Spinner, Group, Cell, Divider, Scroller} from 'vux'
   import axios from 'axios'
-  import SkeletonScreenLoadingCell from '../components/SkeletonScreenLoading_Cell'
-  import store from '../store'
+  import SkeletonScreenLoadingCell from '../../components/SkeletonScreenLoading_Cell'
+  import store from '../../store/index'
 
   export default {
     store,
@@ -203,7 +203,7 @@
     .search_icon {
       position: relative;
       display: inline-block;
-      background: url("../assets/image/icon-search.png") no-repeat center center;
+      background: url("../../assets/image/icon-search.png") no-repeat center center;
       background-size: 90%;
       width: 28px;
       height: 28px;
@@ -217,7 +217,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: url("../assets/image/no_data.jpg") no-repeat center center;
+    background: url("../../assets/image/no_data.jpg") no-repeat center center;
     background-size: 100%;
     height: 500px;
   }

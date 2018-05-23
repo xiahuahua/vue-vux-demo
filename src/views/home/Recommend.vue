@@ -48,11 +48,11 @@
 </template>
 
 <script>
-    import SkeletonScreenLoading from './SkeletonScreenLoading'
+    import SkeletonScreenLoading from '../../components/SkeletonScreenLoading'
     import axios from 'axios'
     import {Divider} from 'vux'
     import {Scroller, Spinner} from 'vux'
-    import store from '../store/index'
+    import store from '../../store/index'
 
     export default {
         store,
@@ -182,7 +182,7 @@
 </script>
 
 <style lang="less">
-    @import "../styles/theme";
+    @import "../../styles/theme";
 
     .search-item {
         position: absolute;
@@ -199,7 +199,7 @@
         .search-icon {
             position: relative;
             display: inline-block;
-            background: url("../assets/image/icon-searchfind.png") no-repeat center center;
+            background: url("../../assets/image/icon-searchfind.png") no-repeat center center;
             background-size: 60%;
             width: 23px;
             height: 23px;
@@ -256,7 +256,7 @@
         }
         .info-read:before {
             position: absolute;
-            background: url("../assets/image/ic_read.png") no-repeat center center;
+            background: url("../../assets/image/ic_read.png") no-repeat center center;
             background-size: 100%;
             width: 24px;
             height: 24px;

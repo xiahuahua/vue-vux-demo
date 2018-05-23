@@ -25,7 +25,7 @@
             <div class="info-footer">
               <div class="info-footer-left">
                 <!--<img v-lazy="item.thumbnailUrl"/>-->
-                <img src="../assets/image/ic_lanmuhead.png"/>
+                <img src="../../assets/image/ic_lanmuhead.png"/>
               </div>
               <div class="info-footer-right">
                 <span class="info-right-row font-bold">{{item.category}}</span>
@@ -50,7 +50,7 @@
     </scroller>
     <popup v-model="show12" position="bottom" height="100%">
       <div class="panel-title"><span class="panel-title-content">
-        <img src="../assets/image/fenleititle.png">
+        <img src="../../assets/image/fenleititle.png">
       </span>
         <span class="panel-close" @click="panelClose"></span>
       </div>
@@ -69,9 +69,9 @@
 
 <script>
   import {Popup, Divider, Scroller, Spinner} from 'vux'
-  import SkeletonScreenLoading from './SkeletonScreenLoading'
+  import SkeletonScreenLoading from '../../components/SkeletonScreenLoading'
   import axios from 'axios'
-  import store from '../store'
+  import store from '../../store/index'
 
   export default {
     store,
@@ -305,7 +305,7 @@
 </script>
 
 <style lang="less">
-  @import "../styles/theme";
+  @import "../../styles/theme";
 
   #recommend {
     .type-item-down:after {
@@ -316,7 +316,7 @@
       top: 0px;
       width: 15px;
       height: 100%;
-      background: url('../assets/image/ic_arrowdown.png') no-repeat center;
+      background: url('../../assets/image/ic_arrowdown.png') no-repeat center;
       background-size: 10px 4px;
     }
   }
@@ -341,7 +341,7 @@
       .search-icon {
         position: relative;
         display: inline-block;
-        background: url("../assets/image/icon-searchfind.png") no-repeat center center;
+        background: url("../../assets/image/icon-searchfind.png") no-repeat center center;
         background-size: 40%;
         width: 14px;
         height: 14px;
@@ -390,7 +390,7 @@
       right: 15px;
       width: 28px;
       height: 28px;
-      background: url('../assets/image/ic_close.png') no-repeat center;
+      background: url('../../assets/image/ic_close.png') no-repeat center;
       background-size: 80%;
     }
   }
@@ -482,7 +482,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: url("../assets/image/no_subscribe.jpg") no-repeat center center;
+    background: url("../../assets/image/no_subscribe.jpg") no-repeat center center;
     background-size: 100%;
     height: 500px;
   }

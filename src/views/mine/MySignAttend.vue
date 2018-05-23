@@ -2,10 +2,10 @@
     <div id="mysign">
         <div class="banner">
             <h3>连续签到，奖励更多</h3>
-            <img src="../assets/image/bannerqiandaor.png"/>
+            <img src="../../assets/image/bannerqiandaor.png"/>
             <h4>明日签到奖励<span>{{tomorrowjifen}}</span>积分</h4>
             <i>已签到</i>
-            <h5 @click="SignRule"><img src="../assets/image/ic_jifenrule.png"/>签到规则</h5>
+            <h5 @click="SignRule"><img src="../../assets/image/ic_jifenrule.png"/>签到规则</h5>
         </div>
         <x-dialog v-model="showSignIn" hide-on-blur :dialog-style="{'max-width': '100%'}">
             <div class="img-box">
@@ -134,7 +134,7 @@
             position: absolute;
             width: 28px;
             height: 28px;
-            background: url('../assets/image/ic_close.png') no-repeat center;
+            background: url('../../assets/image/ic_close.png') no-repeat center;
             background-size: 80%;
             top: 10px;
             right: 10px;
@@ -150,7 +150,7 @@
 <script>
     import {Group, Cell, Flexbox, FlexboxItem, XDialog} from 'vux'
     import axios from 'axios'
-    import store from '../store'
+    import store from '../../store/index'
 
     export default {
         store,

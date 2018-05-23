@@ -38,7 +38,7 @@
 </style>
 <script>
   import { Tabbar,TabbarItem,Scroller} from 'vux'
-  import { getNewsDetail } from '../utils/api'
+  import { getNewsDetail } from '../../utils/api'
   import "jquery"
 
   var $ = require('jquery');

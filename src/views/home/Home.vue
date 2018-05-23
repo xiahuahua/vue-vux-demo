@@ -31,7 +31,7 @@
 
 <script>
     import {Tab, TabItem, ViewBox} from 'vux'
-    import store from '../store'
+    import store from '../../store/index'
     import Subscibe from './Subscibe'
     import Recommend from './Recommend'
     import NewsList from './NewsList'

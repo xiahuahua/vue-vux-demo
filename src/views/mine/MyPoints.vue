@@ -6,7 +6,7 @@
       </div>
       <div class="right" @click="showSignIn=true">
         <i>
-          <img src="../assets/image/ic_jifenrule.png"/>
+          <img src="../../assets/image/ic_jifenrule.png"/>
         </i>积分规则
       </div>
     </div>
@@ -83,7 +83,7 @@
       position: absolute;
       width: 28px;
       height: 28px;
-      background: url('../assets/image/ic_close.png') no-repeat center;
+      background: url('../../assets/image/ic_close.png') no-repeat center;
       background-size: 80%;
       top: 10px;
       right: 10px;
@@ -187,7 +187,7 @@
 <script>
   import {Group, Cell, XDialog} from "vux"
   import axios from 'axios'
-  import store from '../store'
+  import store from '../../store/index'
 
   export default {
     components: {

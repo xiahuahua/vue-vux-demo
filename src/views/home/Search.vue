@@ -4,7 +4,7 @@
     <div class="search-item-temp">
       <div class="search-back" @touchend="searchCancel()" @click="searchCancel()">返回</div>
       <div class="search-input">
-        <img src="./../assets/image/icon-searchfind.png" alt="搜索">
+        <img src="../../assets/image/icon-searchfind.png" alt="搜索">
         <input type="text"
                placeholder="请输入您想搜索的内容"
                v-model="key"
@@ -57,7 +57,7 @@
 <script type="text/ecmascript-6">
   import Vue from 'vue'
   import axios from 'axios'
-  import store from '../store'
+  import store from '../../store/index'
 
   // 注册一个全局自定义指令 v-focus
   Vue.directive('focus', {
@@ -168,7 +168,7 @@
 </script>
 
 <style lang="less">
-  @import "../styles/theme";
+  @import "../../styles/theme";
 
   #search {
     font-size: 16px;
@@ -358,7 +358,7 @@
       right: 0px;
       width: 24px;
       height: 24px;
-      background: url('../assets/image/ic_close.png') no-repeat center;
+      background: url('../../assets/image/ic_close.png') no-repeat center;
       background-size: 80%;
     }
   }

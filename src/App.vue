@@ -61,10 +61,10 @@
   }
 </style>
 <script>
-  import AppFooter from './components/Footer'
-  import Guide from './components/Guide'
+  import AppFooter from './views/index/Footer'
+  import Guide from './views/index/Guide'
   import LoginLoading from './components/LoginLoading'
-  import GuideImg from './components/GuideImg'
+  import GuideImg from './views/index/GuideImg'
   import store from './store'
   import {mapMutations} from 'vuex'
 

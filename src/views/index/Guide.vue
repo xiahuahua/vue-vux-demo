@@ -1,12 +1,12 @@
 <template>
   <div class="app_guide">
-    <img src="../assets/image/app_guide.jpg"/>
+    <img src="../../assets/image/app_guide.jpg"/>
     <div class="close" @click="closeGuide">跳过  {{count_down}}s</div>
   </div>
 </template>
 
 <script>
-  import store from '../store'
+  import store from '../../store/index'
   import {mapMutations} from 'vuex'
 
   export default {

@@ -124,7 +124,7 @@
 <script>
   import axios from 'axios'
   import SkeletonScreenLoading from './SkeletonScreenLoading'
-  import store from '../store'
+  import store from '../store/index'
 
   export default {
     store,

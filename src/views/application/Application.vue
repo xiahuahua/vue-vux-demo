@@ -5,22 +5,22 @@
       <grid>
         <grid-item :label="'csdn'"
                    @click.native="href_to('https://www.csdn.net')">
-          <img slot="icon" src="../assets/image/ic_csdn.png"/>
+          <img slot="icon" src="../../assets/image/ic_csdn.png"/>
         </grid-item>
         <grid-item :label="'百度'" @click.native="href_to('http://www.baidu.com')">
-          <img slot="icon" src="../assets/image/ic_baidu.png"/>
+          <img slot="icon" src="../../assets/image/ic_baidu.png"/>
         </grid-item>
       </grid>
       <div class="itemtitle">功能类型2</div>
       <grid>
         <grid-item :label="'掘金'" @click.native="href_to('https://juejin.im')">
-          <img slot="icon" src="../assets/image/ic_juejin.png"/>
+          <img slot="icon" src="../../assets/image/ic_juejin.png"/>
         </grid-item>
         <grid-item :label="'网易'" @click.native="href_to(garden_url)">
-          <img slot="icon" src="../assets/image/ic_wangyi.png"/>
+          <img slot="icon" src="../../assets/image/ic_wangyi.png"/>
         </grid-item>
         <grid-item :label="'微信'" @click.native="href_to(gardenId_wx)">
-          <img slot="icon" src="../assets/image/ic_wx.png"/>
+          <img slot="icon" src="../../assets/image/ic_wx.png"/>
         </grid-item>
       </grid>
     </div>
@@ -94,7 +94,7 @@
 </style>
 <script>
   import {Grid, GridItem, GroupTitle, Group, Toast} from 'vux'
-  import store from '../store/index'
+  import store from '../../store/index'
   import axios from 'axios'
 
   export default {

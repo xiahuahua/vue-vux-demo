@@ -4,7 +4,7 @@
                 dots-position="center"></swiper>
         <cell v-for="x in Objlist" :title="x.name" :link="{path: '/newsdetail',query:{id:x.id,tag:'资讯'}}"
               :inline-desc='x.body'>
-            <img class="ic_img" slot="icon" src="../assets/image/ic_label_today.png">
+            <img class="ic_img" slot="icon" src="../../assets/image/ic_label_today.png">
             <div>
                 <span class="pubdate">{{x.pub_date}}</span>
             </div>
@@ -33,7 +33,7 @@
 <script>
     import {Group, Cell, Swiper, Scroller, Divider} from 'vux'
     import axios from 'axios'
-    import BackTop from './BackTop'
+    import BackTop from '../../components/BackTop'
 
 
     const imgList = [

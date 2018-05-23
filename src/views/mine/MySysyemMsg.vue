@@ -8,7 +8,7 @@
         <group v-show="isLoading">
           <cell v-for="item in systemDataList" :title="item.body" :inline-desc="item.email"
                 @click.native="hdState(item)">
-            <img slot="icon" src="../assets/image/ic_sytemxiaoxi.png"/>
+            <img slot="icon" src="../../assets/image/ic_sytemxiaoxi.png"/>
             <badge v-show="item.HDtype=='Yes'"></badge>
             <!--<span slot="inline-desc">{{item.neirong}}</span>-->
           </cell>
@@ -88,7 +88,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: url("../assets/image/no_data.jpg") no-repeat center center;
+    background: url("../../assets/image/no_data.jpg") no-repeat center center;
     background-size: 100%;
   }
 
@@ -96,8 +96,8 @@
 <script>
   import {Group, XImg, Cell, Badge, Scroller, Spinner, Divider} from "vux";
   import axios from 'axios'
-  import SkeletonScreenLoadingCell from "./SkeletonScreenLoading_Cell";
-  import store from '../store'
+  import SkeletonScreenLoadingCell from "../../components/SkeletonScreenLoading_Cell";
+  import store from '../../store/index'
 
   export default {
     store,

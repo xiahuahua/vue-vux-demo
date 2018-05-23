@@ -8,7 +8,7 @@
           <div class="banner-info-box">
             <h3>夏花花</h3>
             <p>
-              <i><img src="../assets/image/ic_male.png"></i>
+              <i><img src="../../assets/image/ic_male.png"></i>
               <span>男</span>
             </p>
           </div>
@@ -18,16 +18,16 @@
       </div>
       <div class="news-wrap">
         <cell title="我的收藏" is-link :link="{path:'/myCollection'}">
-          <img slot="icon" width="15" src="../assets/image/ic_shouchang.png">
+          <img slot="icon" width="15" src="../../assets/image/ic_shouchang.png">
         </cell>
         <cell title="我的积分" :value="user_integral" :link="{path:'/myPoints'}" is-link>
-          <img slot="icon" width="15" src="../assets/image/ic_jifen.png">
+          <img slot="icon" width="15" src="../../assets/image/ic_jifen.png">
         </cell>
         <cell title="排行" is-link :link="{path:'/myRanking'}">
-          <img slot="icon" width="15" src="../assets/image/ic_ranking.png">
+          <img slot="icon" width="15" src="../../assets/image/ic_ranking.png">
         </cell>
         <cell title="系统消息" is-link :link="{path:'/mySysyemMsg'}" @click.native="sys_cell">
-          <img slot="icon" width="15" src="../assets/image/ic_sytemxiaoxi.png"/>
+          <img slot="icon" width="15" src="../../assets/image/ic_sytemxiaoxi.png"/>
           <badge v-show="is_sys_hd"></badge>
         </cell>
       </div>
@@ -35,7 +35,7 @@
 
     <x-dialog v-model="showSignIn" hide-on-blur :dialog-style="{'max-width': '100%'}">
       <div class="img-box">
-        <img src="../assets/image/my-signIn-success.png" style="max-width:100%">
+        <img src="../../assets/image/my-signIn-success.png" style="max-width:100%">
       </div>
       <div @click="showSignIn=false">
         <span class="vux-close"></span>
@@ -150,7 +150,7 @@
       position: absolute;
       width: 28px;
       height: 28px;
-      background: url('../assets/image/ic_close.png') no-repeat center;
+      background: url('../../assets/image/ic_close.png') no-repeat center;
       background-size: 80%;
       top: 10px;
       right: 10px;
@@ -171,8 +171,8 @@
 <script>
   import {Group, Cell, Flexbox, FlexboxItem, XDialog, Badge} from 'vux'
   import axios from 'axios'
-  import store from '../store'
-  import cropper from './cropper'
+  import store from '../../store/index'
+  import cropper from '../../components/cropper'
 
   export default {
     store,
